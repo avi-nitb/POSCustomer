@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cont_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@drawable/background_state_drawable"
+    android:clickable="true"
+    >
+
+    <ImageView
+        android:id="@+id/im_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dim_16"
+        android:src="@drawable/ic_tonality_black_24dp"
+        />
+
+    <TextView
+        android:id="@+id/lbl_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/im_item_icon"
+        android:layout_marginLeft="@dimen/dim_48"
+        android:layout_marginRight="@dimen/dim_30"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:singleLine="true"
+        android:text="Dummy Text"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lbl_item_sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_item_text"
+        android:layout_marginLeft="@dimen/dim_48"
+        android:layout_marginRight="@dimen/dim_30"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:singleLine="true"
+        android:text="Mononc' J"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/im_item_icon_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_favorite_border_black_24dp"
+        android:background="@drawable/background_state_drawable"
+        />
+
+</RelativeLayout>

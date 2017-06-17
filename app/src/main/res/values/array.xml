@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="draweritems">
+        <item>@drawable/profile </item>
+        <item>@drawable/list_resturants </item>
+        <item>@drawable/hist </item>
+        <item>@drawable/logout </item>
+
+
+    </array>
+    <string-array name="nav_drawer_labels">
+        <item>Profile</item>
+        <item>List Resturants</item>
+        <item>History</item>
+        <item>Logout</item>
+
+    </string-array>
+</resources>

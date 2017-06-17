@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dim_10"
+    android:paddingLeft="@dimen/dim_10"
+    android:background="@drawable/bg"
+    android:paddingRight="@dimen/dim_10"
+    android:paddingTop="@dimen/dim_10"
+    tools:context="com.poscustomer.DetailsActivity">
+
+    <TextView
+        android:id="@+id/lbl_quote_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dim_25"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_quote_attribution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_quote_text"
+        android:textSize="@dimen/dim_15"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/detail_img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_quote_attribution"
+        android:src="@drawable/card_4" />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/detail_img1"
+        android:layout_alignLeft="@id/detail_img1"
+        android:layout_alignRight="@id/detail_img1"
+        android:layout_alignTop="@id/detail_img1"
+        android:layout_marginBottom="@dimen/dim_40"
+        android:layout_marginLeft="@dimen/dim_15"
+        android:gravity="bottom"
+        android:text="@string/offer"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_20"
+        android:paddingBottom="@dimen/dim_2"/>
+
+    <TextView
+        android:id="@+id/myImageViewText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/detail_img1"
+        android:layout_alignLeft="@id/detail_img1"
+        android:layout_alignRight="@id/detail_img1"
+        android:layout_alignTop="@id/detail_img1"
+        android:layout_marginBottom="@dimen/dim_20"
+        android:layout_marginLeft="@dimen/dim_15"
+        android:gravity="bottom"
+        android:text="@string/discount"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_18"
+        android:paddingBottom="@dimen/dim_2"/>
+
+    <TextView
+        android:id="@+id/myImageViewText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/detail_img1"
+        android:layout_alignLeft="@id/detail_img1"
+        android:layout_alignRight="@id/detail_img1"
+        android:layout_alignTop="@id/detail_img1"
+        android:layout_marginBottom="@dimen/dim_5"
+        android:layout_marginLeft="@dimen/dim_15"
+        android:gravity="bottom"
+        android:text="@string/mrp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_12"
+        android:paddingBottom="@dimen/dim_4"/>
+
+    <TextView
+        android:id="@+id/myImageViewText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/detail_img1"
+        android:layout_alignRight="@id/myImageViewText2"
+        android:layout_alignTop="@id/detail_img1"
+        android:layout_marginBottom="@dimen/dim_5"
+        android:layout_marginLeft="@dimen/dim_15"
+        android:layout_marginRight="@dimen/dim_20"
+        android:gravity="bottom"
+        android:text="@string/catagory"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dim_12"
+        android:paddingBottom="@dimen/dim_5"/>
+
+
+</RelativeLayout>
